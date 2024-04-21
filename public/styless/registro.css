@@ -46,7 +46,7 @@ label, p {
 
 input{
     padding: 17px 11px;
-    border: 1px solid rgb(170, 221, 219);
+    border: 1px solid #ADDF;
     border-radius: 25px;
     margin-bottom: 25px;
     background-color: #FAFAFC;
@@ -57,7 +57,7 @@ input{
 }
 
 .btn-1{
-    background-color: #851185;
+    background-color: #570357;
     font-size: 15px;
     color: #FFFFFF;
     text-transform: uppercase;
@@ -65,7 +65,7 @@ input{
 }
 
 .btn-1:hover {
-    background-color: #6d0564;
+    background-color: #490543;
 
 
 }
@@ -76,3 +76,4 @@ input{
     margin-bottom: 25px;
 
 }
+
