@@ -5,12 +5,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="./styless/ingreso.css">
+
+    
 </head>
 <body>
-    <form>
+    <form id="Formulario">
         <h2>Inicio de Sesion</h2>
         <label for="Username">Correo Electronico</label>
-        <input type="text" id="username">
+        <input type="text" id="correo">
     
         <label for="password">Contraseña</label>
         <input type="password" id="password">
@@ -20,8 +22,9 @@
         
         </div>
     
-        <input type="submit" class="btn-1" value="Iniciar">
+        <input type="submit" class="btn-1" onclick="iniciarSesion()" value="Iniciar">
        </form>
+       <script src="./scripts/ingreso.js"></script>
 </body>
 </html>
 

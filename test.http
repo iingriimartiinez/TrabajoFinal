@@ -1,0 +1,33 @@
+
+### Obtener todos los usuarios
+GET http://localhost:3000/api/obtenerUsuario
+
+### Crear todos los usuarios
+POST http://localhost:3000/api/crearUsuario
+
+Content-Type: application/json
+
+{
+    "nombreCompleto": "Tatiana Martinez",
+    "correo": "ingridtatianamartinezdiaz@gmail.com",
+    "contrasena": "clave123"
+}
+
+### Modificar usuario por Id
+PUT http://localhost:3000/api/modificarUsuario/:_id
+
+### Eliminar usuario por Id
+DELETE http://localhost:3000/api/eliminarUsuario/:_id
+
+
+
+
+
+
+
+
+
+
+
+
+

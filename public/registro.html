@@ -5,16 +5,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="./styless/registro.css">
+
+    <script src="./scripts/registro.js" defer></script>
 </head>
 <body>
 
-   <form>
+   <form id="Formulario"> 
     <h2>Registro</h2>
     <label for="Username">Nombre de Usuario</label>
-    <input type="text" id="username">
+    <input type="text" id="Username">
 
     <label for="Username">Corre Electronico</label>
-    <input type="text" id="username">
+    <input type="text" id="correo">
 
     <label for="password">Password</label>
     <input type="password" id="password">
@@ -24,7 +26,7 @@
     
     </div>
 
-    <input type="submit" class="btn-1" value="Inicar sesion">
+    <input type="submit" class="btn-1" onclick="Iniciarsesion()" value="Iniciar sesion">
    </form>
     
 </body>
